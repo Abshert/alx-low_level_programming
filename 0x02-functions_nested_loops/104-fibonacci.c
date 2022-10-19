@@ -1,9 +1,10 @@
 /*
  * File: 11-print_to_98.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_to_98 - Prints all natural numbers from input to 98,
