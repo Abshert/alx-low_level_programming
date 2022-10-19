@@ -1,6 +1,6 @@
 /*
  * File: 100-times_table.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Salihu Abdul
  */
 
 #include "main.h"

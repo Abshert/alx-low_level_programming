@@ -1,6 +1,6 @@
 /*
  * File: 1-alphabet.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
 #include "main.h"

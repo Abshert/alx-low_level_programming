@@ -1,6 +1,6 @@
 /*
  * File: 10-add.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
 #include "main.h"

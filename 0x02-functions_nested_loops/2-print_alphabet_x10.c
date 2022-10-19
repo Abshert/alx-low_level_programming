@@ -1,6 +1,6 @@
 /*
  * File: 2-print_alphabet_x10.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
 #include "main.h"

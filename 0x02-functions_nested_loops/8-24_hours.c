@@ -1,9 +1,9 @@
 /*
  * File: 8-24_hours.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * jack_bauer - Prints every minute of the day of

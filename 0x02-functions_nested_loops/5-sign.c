@@ -1,9 +1,9 @@
 /*
  * File: 5-sign.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_sign - Prints the sign of a number.

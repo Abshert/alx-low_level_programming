@@ -1,9 +1,9 @@
 /*
  * File: 6-abs.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _abs - Computes the absolute value of an integer.

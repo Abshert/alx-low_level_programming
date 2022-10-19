@@ -1,6 +1,6 @@
 /*
  * File: 102-fibonacci.c
- * Auth: Aisha Abdul Salihu
+ * Auth: Aisha Salihu Abdul
  */
 
 #include <stdio.h>
