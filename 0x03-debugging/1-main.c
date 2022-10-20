@@ -5,18 +5,18 @@
 
 int main(void)
 {
-        int i;
+	int i;
 
-        printf("Infinite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 
-        i = 0;
+	i = 0;
 
-        while (i < 10)
-        {
-                putchar(i);
-        }
+	while (i < 10)
+	{
+		putchar(i);
+	}
+/** This is the code that is causing the output to go into an infinite loop.*/
+	printf("Infinite loop avoided! \\o/\n");
 
-        printf("Infinite loop avoided! \\o/\n"); //This is the code that is causing the output to go into an infinite loop.
-
-        return (0);
+	return (0);
 }
