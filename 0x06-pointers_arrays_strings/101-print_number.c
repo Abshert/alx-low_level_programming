@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib>
+#include "main.h"
 
 /**
  * print_number - prints an integer.
@@ -7,26 +6,24 @@
  * Return: no return.
  */
 
-void printnumber(int n)
+void print_number(int n)
 {
+	unsigned int u, i;
 
-   if (n < 0) {
-       putchar('-');
-       n = -n;
-   }
+	if (n < 0)
+	{
+		u = -n;
+		_putchar('-');
+	}
+	else
+	{
+		u = n;
+	}
 
-   if (n == 0)
-      putchar('0');
-
-   if (n/10)
-      printnumber(n/10);
-
-   putchar(n%10 + '0');
-}
-
-int main(int argc, char** argv)
-{
-   int n = atoi(argv[1]);
-   printnumber(n);
-   printf("\n");
+	i = 1000000000;
+	do {
+		if (i <= u || i == 1)
+			_putchar(u / i % 10 + '0');
+		i /= 10;
+	} while (i != 0);
 }
