@@ -1,25 +1,32 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib>
 
 /**
  * print_number - prints an integer.
  * @n: input integer.
  * Return: no return.
  */
-void print_number(int n)
+
+void printnumber(int n)
 {
-	unsigned int x;
 
-	if (n < 0)
-	{
-		_putchar('-');
-		n *= -1;
-	}
+   if (n < 0) {
+       putchar('-');
+       n = -n;
+   }
 
-	x = n;
+   if (n == 0)
+      putchar('0');
 
-	if (x / 10)
-		print_number(x / 10);
+   if (n/10)
+      printnumber(n/10);
 
-	_putchar(x % 10 + '0');
+   putchar(n%10 + '0');
+}
+
+int main(int argc, char** argv)
+{
+   int n = atoi(argv[1]);
+   printnumber(n);
+   printf("\n");
 }
