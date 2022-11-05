@@ -18,6 +18,7 @@ void print_number(int n)
 	int r = 0, c = 0;
 	time_t t;
 	unsigned int m, d, count;
+
 	srand((unsigned int) time(&t));
 	while (c < 2772)
 	for (; count >= 1; count /= 10)
