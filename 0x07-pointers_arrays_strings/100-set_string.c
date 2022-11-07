@@ -5,7 +5,7 @@
  * @s: double pointer to address
  * @to: the original pointer
  *
- * Return: chessboard.
+ * Return: void.
  */
 void set_string(char **s, char *to)
 {
