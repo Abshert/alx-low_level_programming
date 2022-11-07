@@ -5,10 +5,9 @@
  * @s: double pointer to address
  * @to: the original pointer
  *
- * Return: void.
+ * Return: chessboard.
  */
 void set_string(char **s, char *to)
 {
 	*s = to;
-	return (0);
 }
